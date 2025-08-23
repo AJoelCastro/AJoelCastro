@@ -1,7 +1,6 @@
 <h1 align="center">Hi 👋, I'm Arturo Castro</h1> 
 <h3 align="center">A passionate Software Engineer from Perú</h3>
 
-- 🔭 I’m currently working on [Tricks-Mobile](https://github.com/AJoelCastro/TricksMB.git)
 
 <h3 align="left">Connect with me:</h3> 
 <p align="left">
