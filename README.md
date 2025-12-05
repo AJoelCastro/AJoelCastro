@@ -13,3 +13,4 @@
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=ajoelcastro&show_icons=true&locale=es&layout=compact&theme=tokyonight" alt="ajoelcastro" /></p>
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=ajoelcastro&show_icons=true&locale=es&theme=tokyonight" alt="ajoelcastro"  /></p>
+<img src="https://streak-stats.demolab.com?user=AJoelCastro&theme=dark&hide_border=true" alt="AJoelCastro's GitHub Stats" />
