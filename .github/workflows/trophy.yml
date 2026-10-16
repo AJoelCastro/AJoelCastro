@@ -18,12 +18,19 @@ jobs:
     timeout-minutes: 5
 
     steps:
+      - name: Verify token and username (debug)
+        if: ${{ github.event_name == 'workflow_dispatch' || github.event_name == 'push' || github.event_name == 'schedule' }}
+        run: |
+          echo "Resolved username: AJoelCastro"
+          # quick API check (do not print token value)
+          curl -s -H "Authorization: token ${{ secrets.TROPHY_TOKEN }}" https://api.github.com/users/AJoelCastro | jq '{login, id, type}' || true
+
       - name: generate trophy.svg
         uses: Erik-Donath/github-profile-trophy@feature/generate-svg
         with:
           username: ${{ github.repository_owner }}
           file: dist/trophy.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.TROPHY_TOKEN }}
           theme: dracula
           max-rows: 1
           margin-width: 8
